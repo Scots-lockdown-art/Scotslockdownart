@@ -41,8 +41,10 @@
 
 
 
-<div class="janette">
-<h1>Janette Donoghue</h1>
+<div class="janette"><div>
+
+		<div class="one">
+		<h1>Janette Donoghue</h1>
 
 <p>I am a primary teacher.
 I have always tried to inspire
@@ -65,8 +67,9 @@ pictures that were a real challenge but each small step
 led to a better outcome.<br>
 In this exhibition consisting of a handful of contributors I
 hope to show examples of resilience and creativity from
-some of the people of Scotland.</p>
-<img src="Jdon.jpg" class="jimg">
+		some of the people of Scotland.</p></div>
+		
+		<div class="two"><img src="Jdon.jpg" class="jimg"></div>
 </div>
 
 </body>
@@ -75,11 +78,22 @@ some of the people of Scotland.</p>
 <style>
 
 .janette  {
-float:left;
+display:flex;
+		align-items:center;
+justify-content:space-between;
+flex-wrap:nowrap;
+flex: 1 1 auto;
+width:100%;
+		margin-top:140px;
+	
 }
 
-.Jdon {
-float:right;
-}
+.one {
+		width:60%;
+		}
+		
+.two {
+width:40%;
+		}
 
 </style>
