@@ -2,6 +2,7 @@ html, body {
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
+	background: #ccf2ff;
 	}
 	
 
@@ -52,7 +53,7 @@ display: flex;
 width:110%;
 	margin-left:-10px;
 	top:-10px;
-background-color:black;
+background-color:#212F3D;
 align-items:center;
 justify-content:space-between;
 flex-wrap:nowrap;
