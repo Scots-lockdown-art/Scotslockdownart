@@ -1,0 +1,115 @@
+html, body {
+    margin: 0;
+    padding: 0;
+background-image: url("eurbak3.png");
+		  background-size: cover;
+		background-position: center;
+		  background-repeat: no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+	color: white;
+	}
+	
+
+.dropdown .dropbtn{
+  font-size: 28px;  
+  border: none;
+  outline: none;
+  color: white;
+  background: #383838;
+  padding: 25px 10px;  
+  margin: 0;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #686868;
+  }
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+	top:110px;
+  background-color: #1a1a1a;	
+}
+
+.dropdown-content a {
+    color: white;
+  padding: 28px 16px;
+	font-size: 30px; 
+  text-decoration: none;
+  display: block;
+  text-align: left;
+	border-top:1px dotted white;
+	
+}
+
+.dropdown-content a:hover {
+  background-color:#00324d;
+	
+}
+
+	
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+#menu {
+display: flex;
+width:110%;
+	margin-left:-10px;
+	top:-10px;
+background-color:black;
+align-items:center;
+justify-content:space-between;
+flex-wrap:nowrap;
+flex: 1 1 auto;
+	position:fixed;
+	height:120px;
+	bottom:140px;	
+	z-index:1;
+}
+
+
+.box {
+display:flex;	
+}
+
+.box4 {
+width:46%;
+}
+
+.box3  {
+width:17%;
+	
+	}
+	
+.box2  {
+	width: 10%;
+	}
+	
+.box5  {
+	width:20%;
+	}
+	
+.box6  {
+	width:1%;
+	}
+	
+.box1 {
+	
+	width:8%;
+}
+
+
+	
+h2 {
+	  font-size: 32px;  	
+	color:white;
+	
+	}
+
+.pesfc {
+	margin-top:20px;
+}
+	
+
+.material-icons.md-36 { font-size: 63px; }
