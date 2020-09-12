@@ -47,11 +47,11 @@
 	
 		<div><h1>Male Model 1</h1>
 		<a href="../images/mask1m.jpeg"><img src="../images/mask1m.jpeg" class="pics"></a><div>
-		<div><h1>Male Model 2</h1><a href="../images/mask2m.jpeg"><img src="../images/mask2m.jpeg" class="pics"></div>
+		<div><h1>Male Model 2</h1><a href="../images/mask2m.jpeg"><img src="../images/mask2m.jpeg" class="pics"></a></div>
 
-<div><h1>Female Model 1</h1><a href="../images/mask1f.jpeg" ><img src="../images/mask1f.jpeg" class="pics"></div>
-	<div><h1>Female Model 2</h1><a href="../images/mask2f.jpeg"><img src="../images/mask2f.jpeg" class="pics"></div>
-<div><h1>Harry Potter Mask</h1><a href="../images/harrypotmask.jpeg"><img src="../images/harrypotmask.jpeg" class="pics"></div>
+<div><h1>Female Model 1</h1><a href="../images/mask1f.jpeg" ><img src="../images/mask1f.jpeg" class="pics"></a></div>
+	<div><h1>Female Model 2</h1><a href="../images/mask2f.jpeg"><img src="../images/mask2f.jpeg" class="pics"></a></div>
+<div><h1>Harry Potter Mask</h1><a href="../images/harrypotmask.jpeg"><img src="../images/harrypotmask.jpeg" class="pics"></a></div>
 		
 		</div>
 		
@@ -59,6 +59,11 @@
 		</body>
 		
 <style>
+		
+		.pics {		
+height:400px;
+		width:auto;
+		}
 		
 .top {
 margin-top:150px;
@@ -70,25 +75,22 @@ margin-top:150px;
 		font-size:200%;
 		}	
 
-		.list {
+		.flex {
+    display:flex;
 		font-size:150%;	
-		text-align:center;		
-		margin:0;
-		padding:0;
-		text-decoration:none;		
-		}
-ul {
-		list-style-type:none;		
+ flex-wrap: wrap;
+		text-align:center;	
+justify-content: space-around;		
 		}
 		
-.pics {
-height:200px;
-width:300px;
-	display:block;		
-		border:1px solid black;
-		margin:auto auto;
-	}
+
 
 		a {
 text-decoration:none;
 		}
+		
+h3 {
+text-decoration:underline;
+		font-size:200%;
+		}
+
