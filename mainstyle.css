@@ -77,14 +77,15 @@ display:flex;
 
 	
 .box2  {
-	width: 90%;
+	width: 80%;
+	text-align:right;
 	}
 	
 
 	
 .box1 {
 	
-	width:8%;
+	width:20%;
 }
 
 
