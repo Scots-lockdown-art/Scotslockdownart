@@ -78,7 +78,7 @@ display:flex;
 
 	
 .box2  {
-	width: 70%;
+	width: 50%;
 	text-align:center;
 	}
 	
@@ -86,7 +86,7 @@ display:flex;
 	
 .box1 {
 	
-	width:30%;
+	width:50%;
 	 vertical-align: middle; 
 	text-align:center;
 }
