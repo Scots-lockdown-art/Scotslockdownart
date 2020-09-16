@@ -4,7 +4,7 @@ html, body {
     font-family: Arial, Helvetica, sans-serif;
 	background: url("images/wallpaperv2.jpg") no-repeat center center fixed;
 		  background-size: cover;	
-	overflow: hidden;		
+	height:100vh;
     
 	}
 	
