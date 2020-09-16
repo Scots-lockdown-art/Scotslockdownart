@@ -86,6 +86,7 @@ display:flex;
 .box1 {
 	
 	width:20%;
+	 vertical-align: middle; 
 }
 
 
