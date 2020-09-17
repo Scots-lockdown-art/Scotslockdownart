@@ -22,14 +22,14 @@ body {
 }
 
 .dropdown:hover .dropbtn {
-  background-color: #99c2ff;
+  background-color: #3366ff;
   }
 
 .dropdown-content {
   display: none;
   position: absolute;
 	top:155px;
-  background-color: #002080;	
+  background-color: #0000ff; 	
 }
 
 .dropdown-content a {
