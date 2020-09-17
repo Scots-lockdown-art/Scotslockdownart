@@ -15,14 +15,14 @@ body {
   border: none;
   outline: none;
   color: white;
-  background: black;
+  background: #003380;
   padding: 35px 15px;  
   margin: 0;
 	text-align:center;
 }
 
 .dropdown:hover .dropbtn {
-  background-color: #1a1a1a;
+  background-color: #99c2ff;
   }
 
 .dropdown-content {
@@ -44,7 +44,7 @@ body {
 }
 
 .dropdown-content a:hover {
-  background-color:#333333;
+  background-color:#003380;
 	
 }
 
