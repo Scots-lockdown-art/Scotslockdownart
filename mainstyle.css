@@ -85,6 +85,7 @@ display:flex;
 .box3  {
 	width:15%;
 	text-align:left;
+	padding-right:40px;
 	}
 	
 
@@ -108,7 +109,6 @@ h2 {
 	
 	height:70px;
 	width:120px;
-	maright-right:40px;
 }
 
 
