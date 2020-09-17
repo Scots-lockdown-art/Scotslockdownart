@@ -78,7 +78,12 @@ display:flex;
 
 	
 .box2  {
-	width:70%;
+	width:650%;
+	text-align:center;
+	}
+
+.box3  {
+	width:15%;
 	text-align:left;
 	}
 	
@@ -86,9 +91,9 @@ display:flex;
 	
 .box1 {
 	
-	width:30%;
+	width:20%;
 	 vertical-align: middle; 
-	text-align:left;
+	text-align:center;
 }
 
 
@@ -98,6 +103,12 @@ h2 {
 	color:white;
 	
 	}
+
+.scotflag {
+	
+	height:60px;
+	width:75px;
+}
 
 
 	
