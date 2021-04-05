@@ -15,7 +15,7 @@ body {
   border: none;
   outline: none;
   color: white;
-  background:#660066;
+  background:#0000ff;
   padding: 35px 15px;  
   margin: 0;
 	text-align:center;
@@ -58,7 +58,7 @@ display: flex;
 width:110%;
 	margin-left:-10px;
 	top:-10px;
-background-color:#ff4dff; 
+background-color:#660066; 
 align-items:center;
 justify-content:space-between;
 flex-wrap:nowrap;
